@@ -1,0 +1,129 @@
+.line {
+	height: 50px;
+	width: 2px;
+	border-color: 2px solid white;
+	background: 2px solid white;
+}
+
+.navbar {
+	opacity: .8;
+}
+
+.nav-item {
+	border-left: 2px solid black;
+	text-align: center;
+}
+
+.navbar-text {
+	/*border-left: 2px solid black;*/
+	text-align: center;
+}
+
+.navbar {
+	/*opacity: .1;*/
+}
+
+.indie {
+	font-family: 'Indie Flower', cursive;
+}
+
+.container-fluid {
+	background-image: url(../images/bg4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100vw;
+}
+
+body {
+	background-color: black;
+}
+
+.category {
+	margin-right: 50px;
+	float: right;
+	height: 350px;
+	width: 300px;
+}
+
+.mainmenu {
+	padding: 50px 10px;
+}
+
+.categories {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 5px;
+	font-family: 'Audiowide', cursive;
+	-webkit-animation: flash linear 5s infinite;
+	animation: flash linear 5s infinite;
+}
+
+#notextdecor:hover {
+	text-decoration: none;
+	color: none;
+}
+
+#notextdecor {
+	color: grey;
+}
+
+hr {
+	color: white;
+	border: 1px solid grey;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+
+/*.categories {
+    -webkit-animation: color-change 5s infinite;
+    -moz-animation: color-change 5s infinite;
+    -o-animation: color-change 5s infinite;
+    -ms-animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}*/
+
+.invisible-line {
+	clear: both;
+	visibility: hidden;
+}
+.screenshots {
+	margin-top: 135px;
+	margin-right: 50px;
+	float: right;
+	height: 200px;
+	width: 280px;
+}

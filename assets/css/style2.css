@@ -19,7 +19,7 @@
 }
 
 .navbar-text {
-	/*border-left: 2px solid black;*/
+	font-family: 'Pacifico', cursive;
 	text-align: center;
 }
 
@@ -203,7 +203,7 @@ my
 }
 
 .scrollable {
-  max-height: 685px;
+  max-height: 620px;
   overflow-y: scroll;
 }
 
@@ -218,3 +218,48 @@ my
 	padding-right: 43.5px;
 }
 
+.footer1, .footer2, .footer3 {
+	border: 1px solid black;
+	background-color: rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+
+.footer1 {
+	padding: 10px;
+}
+
+.footer2, .footer3 {
+	padding: 5px;
+}
+
+
+
+.invisible-line2 {
+	clear: both;
+	visibility: hidden;
+	margin-bottom: 21px;
+}
+
+.footerlinks {
+	margin-right: 15px;
+}
+
+.footerlinks2 {
+	margin-right: 20px;
+}
+
+.whitecolor {
+	color: white;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.center {
+		margin: 0 auto;
+	}	
+}
+
+@media (max-width: 575.98px) {
+	.center {
+		margin: 0 auto;
+	}	
+}

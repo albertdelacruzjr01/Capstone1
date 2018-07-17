@@ -1,0 +1,667 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+.line {
+	height: 50px;
+	width: 2px;
+	border-color: 2px solid white;
+	background: 2px solid white;
+}
+
+.navbar {
+	opacity: .8;
+}
+
+#navbar2 .nav-item {
+	border-left: 2px solid black;
+}
+
+.nav-item {
+
+	text-align: center;
+}
+
+.navbar-text {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+.navbar {
+	/*opacity: .4;*/
+}
+
+.indie2 {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	padding: 15px;
+	border-style: double;
+	max-height: 500px;
+	
+
+}
+
+/*.indie {
+	color: blue;
+	background: ;
+	opacity: .5;
+	border-style: double;
+	padding: 20px;
+	font-weight: 800;
+}*/
+
+.container-fluid {
+	background-image: url(../images/bg4.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100vw;
+}
+
+.container-fluid2 {
+	/*background-image: url(../images/bg3.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-attachment: fixed;
+	height: 100vh;
+	/*width: 100vw;*/
+}
+
+#body2 {
+	/*background-image: url(../images/bg3.jpg);*/
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+}
+
+#navbar2 {
+	margin-left: 15px;
+	margin-right: 15px;
+	position: fixed;
+}
+
+#navbar3 {
+	margin: 30px 15px 30px 15px;
+}
+
+body {
+	background-color: black;
+}
+
+.category {
+	margin-right: 50px;
+	float: right;
+	height: 350px;
+	width: 300px;
+}
+
+.mainmenu {
+	padding: 50px 10px;
+}
+
+.categories {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 5px;
+	font-family: 'Audiowide', cursive;
+	-webkit-animation: flash linear 5s infinite;
+	animation: flash linear 5s infinite;
+
+}
+
+#notextdecor:hover {
+	text-decoration: none;
+	color: white;
+	animation: none;
+}
+
+.categories:hover {
+	-webkit-animation: none;
+	animation: none;
+}
+
+#notextdecor {
+	color: grey;
+}
+
+hr {
+	color: white;
+	border: 1px solid grey;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/*.categories {
+    -webkit-animation: color-change 5s infinite;
+    -moz-animation: color-change 5s infinite;
+    -o-animation: color-change 5s infinite;
+    -ms-animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}*/
+
+
+.invisible-line {
+	clear: both;
+	visibility: hidden;
+}
+.screenshots {
+	margin-top: 135px;
+	margin-right: 50px;
+	float: right;
+	height: 200px;
+	width: 280px;
+}
+
+#mytab {
+	width: 900px;
+}
+
+.overview {
+	margin-top: 20px;
+	padding: 20px;
+	margin-bottom: 10px;
+
+}
+
+.h1h1h1 {
+	font-size: 4em;
+	margin-bottom: 20px;
+	font-family: 'Courgette', cursive;
+
+}
+
+.overviewbackground {
+	opacity: .7;
+	background-color: black;
+	border-style: double;
+}
+
+.whitep {
+	color: white;
+	margin: auto;
+	padding-left: 10px
+}
+
+.scrollable {
+  max-height: 685px;
+  overflow-y: scroll;
+}
+
+#myTab a {
+	color: black;
+	font-family: 'Russo One', sans-serif;
+	padding-left: 43px;
+	padding-right: 43.5px;
+}
+
+.sticky-left-nav {
+	text-align: center;
+	background-color: black;
+	background-image: url(../images/vertical.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px solid black;
+	min-height: 100%;
+	position: fixed;
+	padding-top: 70px;
+	margin-top: 20px;
+
+}
+
+.characters-nav {
+	list-style: none;
+	padding: 0;
+	height: 100%;
+
+}
+
+.insidebox {
+	/*border: 2px solid black;
+	border-style: double;*/
+	margin-top: 5px;
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 5px black;
+    font-family: 'Russo One', sans-serif;
+}
+
+.insidebox:hover {
+	-webkit-animation: flash linear 2s infinite;
+	animation: flash linear 2s infinite;
+}
+
+
+.right-rowcharacters {
+/*	background-image: url(../images/warrioroflight.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: center;
+	-moz-background-size: center;
+	-o-background-size: center;
+	*/
+	height: 100%;
+	width: 100%;
+	float: right;
+	padding: 0px 0px;
+
+
+}
+
+.jumbotron {
+	background: transparent;
+
+}
+
+#display-4 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: indianred;
+}
+
+#display-5 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: #0000ff;
+}
+
+#display-6 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: #ff0000;
+}
+
+#display-7 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: #808080;
+}
+
+#display-8 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: #4d79ff;
+}
+
+#display-9 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: #b39800;
+}
+
+#display-10 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: black;
+}
+
+#display-11 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: #00004d;
+}
+
+#display-12 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: #999900;
+}
+
+#display-13 {
+	font-size: 5em;
+	font-weight: 500;
+	font-family: 'Courgette', cursive;
+	color: #b37400;
+}
+
+
+
+.my-4 {
+	color: indianred;
+}
+
+.wolbg {
+	background-image: url(../images/warrioroflight.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	max-height: 810px;
+	min-height: 810px;
+	max-width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 30px;
+
+}
+
+.firion {
+	background-image: url(../images/firion.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 20px;
+}
+
+.display-4 {
+	color: blue;
+}
+
+.onionknight {
+	background-image: url(../images/onionknight.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	height: 810px;
+	width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 50px;
+}
+
+.cecil {
+	background-image: url(../images/cecil.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	height: 810px;
+	width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 50px;
+}
+
+.bartz {
+	background-image: url(../images/bartz.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	height: 810px;
+	width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 50px;
+}
+
+.terra {
+	background-image: url(../images/terra.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	height: 810px;
+	width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 50px;
+}
+
+.cloud {
+	background-image: url(../images/cloud.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%; 
+	height: 810px;
+	width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 50px;
+
+}
+
+.squall {
+	background-image: url(../images/squall.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	height: 810px;
+	width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 50px;
+
+}
+
+.zidane {
+	background-image: url(../images/zidane.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	height: 810px;
+	width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 50px;
+
+}
+
+.tidus {
+	background-image: url(../images/tidus.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	height: 810px;
+	width: 100%;
+	border: 5px solid grey;
+	padding: 8px 8px 8px 8px;
+	border-style: solid;
+	margin-top: 50px;
+}
+
+#wolhover {
+	color: #b2b266;
+
+}
+
+#wolhover:hover {
+	text-decoration: none;
+	color: indianred;
+	animation: none;
+}
+
+#firionhover {
+	color: #b2b266;
+}
+
+#firionhover:hover {
+	text-decoration: none;
+	color: #0000ff;
+	animation: none;
+}
+
+#onionknighthover {
+	color: #b2b266;
+}
+
+#onionknighthover:hover {
+	text-decoration: none;
+	color: #ff0000;
+	animation: none;
+}
+
+#cecilhover {
+	color: #b2b266;
+	text-align:center;
+  	transition:0.5s all;
+}
+
+#cecilhover:hover {
+	text-decoration: none;
+	color: #808080;
+	animation: none;
+}
+
+#bartzhover {
+	color: #b2b266;
+}
+
+#bartzhover:hover {
+	text-decoration: none;
+	color: #4d79ff;
+	animation: none;
+}
+
+#terrahover {
+	color: #b2b266;
+}
+
+#terrahover:hover {
+	text-decoration: none;
+	color: #b39800;
+	animation: none;
+}
+
+#cloudhover {
+	color: #b2b266;
+}
+
+#cloudhover:hover {
+	text-decoration: none;
+	color: black;
+	animation: none;
+}
+
+#squallhover {
+	color: #b2b266;
+}
+
+#squallhover:hover {
+	text-decoration: none;
+	color: #00004d;
+	animation: none;
+}
+
+#zidanehover {
+	color: #b2b266;
+}
+
+#zidanehover:hover {
+	text-decoration: none;
+	color: #999900;
+	animation: none;
+}
+
+#tidushover {
+	color: #b2b266;
+}
+
+#tidushover:hover {
+	text-decoration: none;
+	color: #b37400;
+	animation: none;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	.indie2 {
+  /*max-height: 685px;*/
+
+  overflow: scroll;
+  max-height: 400px;
+}
+}
+
+@media (max-width: 575.98px) {
+	.indie2 {
+		overflow: scroll;
+		max-height: 400px;
+	}
+	
+	.sticky-left-nav {
+		position: static;
+		width: 100%;
+	}
+}

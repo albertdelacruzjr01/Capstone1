@@ -404,7 +404,7 @@ hr {
 	border: 5px solid grey;
 	padding: 8px 8px 8px 8px;
 	border-style: solid;
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 .display-4 {
@@ -689,6 +689,11 @@ hr {
 	color: white;
 }
 
+.newcontainer {
+	position: fixed;
+}
+
+
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -721,5 +726,6 @@ hr {
 		position: static;
 		width: 100%;
 
-}
+	}
+
 }

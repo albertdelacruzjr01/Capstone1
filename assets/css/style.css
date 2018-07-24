@@ -170,11 +170,14 @@ hr {
 }
 
 .screenshots {
-	margin-top: 135px;
-	margin-right: 50px;
-	float: right;
+/*	margin-top: 135px;
+	margin-right: 50px;*/
+	/*float: right;*/
 	height: 200px;
 	width: 280px;
+	position: absolute;
+	right: 75px;
+	bottom: 110px;
 }
 
 #mytab {
@@ -235,7 +238,10 @@ hr {
 
 .footer2, .footer3 {
 	padding: 5px;
+	width: 40px;
 }
+
+
 
 
 
@@ -292,14 +298,31 @@ hr {
 		margin-left: 40px;
 	}
 
-	.row {
-		position: absolute;
-		bottom: 1px;
+/*	.row5 {
+		position: relative;
+		top: 60px;
+	}
+*/
+	.footer-table {
+		max-width: 100%;
+	}
+	.row4 {
+		max-width: 100%;
+		margin: 0px 0px;
+	}
+	.center {
+		margin: 0 auto;
+	}
+
+	.centering {
+		padding: 5px 5px;
 	}
 
 }
+	
 
 @media (max-width: 575.98px) {
+
 	.category {
 		position: relative;
 		bottom: 57px;
@@ -315,9 +338,13 @@ hr {
 		visibility: hidden;
 	}
 
-	.aligning, .first-row {
-		margin: 0;
+	.center {
+		margin: 0 auto;
 	}
-	
 
+	.centering {
+		padding: 10px 10px;
+	}
+
+	
 }
